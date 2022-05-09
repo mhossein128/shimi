@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://db.onlinewebfonts.com/c/766132c828a90cbecf6f7f4027d12725?family=IRAN+Sans);
+@font-face {
+  font-family: "IRAN Sans";
+  src: url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot");
+  src: url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.svg#IRAN Sans")
+      format("svg");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
