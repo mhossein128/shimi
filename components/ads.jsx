@@ -1,7 +1,7 @@
 
 function Ads({data , buy}) {
   return (
-    <div className=" bg-white rounded-[15px] p-5 flex-1 max-w-[682px] w-full m-auto">
+    <div className=" bg-white rounded-[15px] p-5 mt-3 flex-1 max-w-[682px] w-full m-auto">
         <div className="flex justify-between border-b-2 border-black p-2">
             <a className="text-button-blue" href="#"> ...نمایش همه</a>
             <strong>آگهی های {buy ? 'خرید' : 'فروش'}</strong>

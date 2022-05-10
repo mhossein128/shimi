@@ -14,7 +14,7 @@ function Home() {
   const [data, setdata] = useState(api);
 
   return (
-    <div className="bg-bg-back min-h-screen px-[25px] py-5 font-IRsans">
+    <div className="bg-bg-back min-h-screen px-[25px] py-5 font-IRsans max-w-[1440px]">
       <Head>
         <meta name="theme-color" content="#fff" />
       </Head>

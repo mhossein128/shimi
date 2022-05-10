@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-      <div className="text-white font-IRsans">
+      <div className="text-white font-IRsans max-w-[1440px]">
         <div className="bg-gradient-to-r from-footer-1 to-footer-2 flex justify-between py-2 px-[25px] md:px-24">
             <div className="flex justify-between items-center gap-x-10 xl:gap-x-32">
                 <div className="hidden lg:flex items-center">

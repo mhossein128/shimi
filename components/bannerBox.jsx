@@ -10,12 +10,12 @@ function BannerBox({ data, small }) {
         <div className="py-3">
           <Swiper
           spaceBetween={10}
-          // slidesPerView={1.2}
-          // freeMode={true}
+          slidesPerView={"auto"}
+          freeMode={true}
           className="lg:hidden"
           >
             {data?.map((banner, i) => (
-                <SwiperSlide key={i} className="!w-[354px]  md:!w-5/12 lg:!w-4/12 lg:text-center">
+                <SwiperSlide key={i} className="!w-full xs:!w-[354px]  md:!w-5/12 lg:!w-4/12 lg:text-center">
                   <Banner  src={banner} small={true} />
                 </SwiperSlide>
                 ))}

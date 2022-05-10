@@ -1,11 +1,6 @@
-import Head from "next/head"
-
 function Header() {
   return (
-    <div className=" text-white font-IRsans bg-bg-back">
-      <Head>
-        <script src="https://kit.fontawesome.com/c9c0b16549.js" crossorigin="anonymous"></script> 
-      </Head>
+    <div className=" text-white font-IRsans bg-bg-back max-w-[1440px]">
           <div className="hidden lg:flex items-center justify-between bg-gradient-to-r from-shimi-blue via-header-blue to-shimi-blue px-[40px]">
             <div className="flex ml-[10px]">
               <img src="/iranshimi.png" alt="" />  
@@ -30,8 +25,17 @@ function Header() {
             </div>
       </div>  
       <div className="hidden lg:flex justify-between items-center gap-4 bg-shimi-blue pl-[33px] pr-[215px] py-3 rounded-b-2xl">
-          <input className="w-[190px] rounded-[10px] text-right bg-inherit border-2 focus:ring focus:ring-white border-white text-white placeholder:text-white focus:border-white " placeholder="...جستجو" type="search" name="search" id="" />
+          {/* <input className="w-[190px] rounded-[10px] text-right bg-inherit border-2 focus:ring focus:ring-white border-white text-white placeholder:text-white focus:border-white " placeholder="...جستجو" type="search" name="search" id="" /> */}
           {/* <i class="fa-solid fa-magnifying-glass"></i> */}
+          <div dir="rtl" className=" flex rounded-md p-3 bg-surface undefined">
+            <div className="flex justify-start w-full bg-inherit rounded-md">
+              <input className="flex justify-center outline-none w-[190px] rounded-[10px] px-3 text-right bg-inherit border-2 focus:ring focus:ring-white border-white text-white placeholder:text-white focus:border-white" placeholder=" جستجو..." min="0" type="search"  />
+              {/* <input className="w-[190px] rounded-[10px] text-right bg-inherit border-2 focus:ring focus:ring-white border-white text-white placeholder:text-white focus:border-white " placeholder="...جستجو" type="search" name="search" id="" /> */}
+            </div>
+            <span className="grid items-center relative -left-[98px]">
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </span>
+          </div>
           <ul className="hidden xl:flex text-xs gap-6 whitespace-nowrap">
             <li>
               <a href="#">پلیمر و پلاستیک</a>

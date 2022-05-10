@@ -3,7 +3,7 @@ import React from 'react'
 
 function CardBox({data}) {
   return (
-    <div className='flex justify-around flex-wrap'>
+    <div className='flex flex-wrap justify-center gap-x-[19px] gap-y-[12px]'>
         <Card data={data} />
     </div>
   )

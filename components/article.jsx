@@ -4,7 +4,7 @@ function Article({small , img , title }) {
       className={small  ?
      ( `w-[172px] h-[108px] md:w-[329px] md:h-[207px] relative ` )
       : 
-      (`w-[352px] h-[221px] md:w-[695px] md:h-[436px] relative flex justify-center`)
+      (`w-[172px] h-[108px] xs:w-[352px] xs:h-[221px] md:w-[695px] md:h-[436px] relative flex justify-center`)
     }>
       <img src={img} alt="" className="w-full h-full rounded-2xl absolute" />
       <div
@@ -21,7 +21,7 @@ function Article({small , img , title }) {
               }
         }
       >
-          <span className={small ? `p-1 md:p-3` : `p-2 md:p-4`}>{title}</span>
+          <span className={small ? `p-1 md:p-3` : `px-2 p-0 xs:p-2 md:p-4 text-[8px] xs:text-base`}>{title}</span>
       </div>
     </div>
   );

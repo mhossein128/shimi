@@ -5,7 +5,7 @@ import "swiper/css/free-mode";
 function FrequentWords() {
     let btn = new Array(10).fill("فلزات و معادن")
   return (
-    <div className=' p-4 bg-white rounded-2xl flex' dir="rtl">
+    <div className=' p-4 my-3 bg-white rounded-2xl flex' dir="rtl">
         <div className="self-center lg:mx-12 whitespace-nowrap">
             کلمات پرتکرار : 
         </div>

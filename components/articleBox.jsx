@@ -7,7 +7,7 @@ function ArticleBox({data , rtl}) {
             <Article small={false} img={data.largeArticle.img} title={data.largeArticle.title} />
         </div>
 
-        <div className="grid grid-cols-2 xs:grid-cols-2 justify-center gap-[10px]">
+        <div className="grid grid-cols-1 xs:grid-cols-2 justify-center gap-[10px]">
             {data.smallArticles.map((ar , i)=>(
                 <Article key={i} small={true} img={ar.img} title={ar.title} />
             ))}
@@ -17,4 +17,4 @@ function ArticleBox({data , rtl}) {
   )
 }
 
-export default ArticleBox
+export default ArticleBox ;

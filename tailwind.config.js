@@ -1,4 +1,4 @@
-// const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -6,14 +6,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // screens: {
-    //   'smobile': '400px',
-    //   ...defaultTheme.screens,
-    // },
+    screens: {
+      'xs': '400px',
+      ...defaultTheme.screens,
+    },
     fontFamily: {
       'IRsans': ['"IRAN Sans"'],
     },
     extend: {
+      screens : {
+        '2xl' : "1440px"
+      },
       colors : {
         'bg-back' : '#F0F0F0',
         'shimi-blue' : '#345DEA ',
