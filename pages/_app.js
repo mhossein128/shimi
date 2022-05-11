@@ -1,14 +1,11 @@
-import Footer from "../components/layout/footer";
-import Header from "../components/layout/header";
+import Layout from "../components/layout/layout";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="2xl:grid justify-center">
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
-    </div>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
   );
 }
 

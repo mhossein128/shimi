@@ -1,8 +1,6 @@
-import chartStyle from "../styles/chart.module.css";
+import chartStyle from "../../../../styles/chart.module.css";
 
 function Chart({ title , salesPrice , buyPrice , salesPercent , buyPercent , L_percentage , L_color , s_percentage , s_color }) {
-    // let scolor = 200 - s_color
-    // let Lcolor = 200 - L_color
   return (
     <div className="flex flex-col  w-[150px] md:w-auto -translate-y-[30px] md:translate-y-0">
       <div

@@ -5,11 +5,11 @@ function Footer() {
         <div className="bg-gradient-to-r from-footer-1 to-footer-2 flex justify-between py-2 px-[25px] md:px-24">
             <div className="flex justify-between items-center gap-x-10 xl:gap-x-32">
                 <div className="hidden lg:flex items-center">
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
-                    <a className="mx-3" href="#"><img src="/youtub.png" alt="" /></a>
-                    <a href="#"><img src="/telegram.png" alt="" /></a>
+                    <a href="#"><img src="icon/instagram.png" alt="" /></a>
+                    <a className="mx-3" href="#"><img src="icon/youtub.png" alt="" /></a>
+                    <a href="#"><img src="icon/telegram.png" alt="" /></a>
                 </div>
-                <img src="/nemad.png" alt="" />
+                <img src="icon/nemad.png" alt="" />
             </div>
             <div className="flex justify-between items-center gap-x-10 xl:gap-x-32">
                 <div className="hidden lg:flex">
@@ -17,7 +17,7 @@ function Footer() {
                     <a className="mx-3" href="#">تماس با ما</a>
                     <a href="#">صفحه اصلی</a>
                 </div>
-                <img src="./iranchimi.png" alt="" />
+                <img src="icon/iranchimi.png" alt="" />
             </div>
         </div>
         <div className="lg:hidden bg-gradient-to-r from-footer-1 to-footer-2 flex justify-end gap-[27px] py-2 px-[25px] md:px-24">
@@ -36,9 +36,9 @@ function Footer() {
                     </li>
                 </ul>
                 <div className="flex justify-end flex-col gap-2 items-center">
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
-                    <a className="mx-3" href="#"><img src="/youtub.png" alt="" /></a>
-                    <a href="#"><img src="/telegram.png" alt="" /></a>
+                    <a href="#"><img src="icon/instagram.png" alt="" /></a>
+                    <a className="mx-3" href="#"><img src="icon/youtub.png" alt="" /></a>
+                    <a href="#"><img src="icon/telegram.png" alt="" /></a>
                 </div>
         </div>
         <div className="bg-gradient-to-r from-product-blue-2 via-product-blue-1 to-product-blue-2 mb-0 p-3 flex justify-center lg:justify-between px-2 md:px-24">
