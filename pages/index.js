@@ -20,7 +20,7 @@ function Home() {
         <script src="https://kit.fontawesome.com/c9c0b16549.js" crossorigin="anonymous"></script> 
         <title>ایران شیمی</title>
         <meta name="description" content="ایران شیمی" />
-        <link rel="icon" href="/iranchimi.png" />
+        <link rel="icon" href="/icon/iranchimi.png" />
       </Head>
       <BannerBox data={data.banner1} small={true} />
       <FrequentWords />
